@@ -1,28 +1,26 @@
 {
   "expo": {
-    "name": "pomodora",
+    "name": "Pomodora Timer",
     "slug": "pomodora",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#9ABEE0"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "info.facacomarduino.pomodora",
+      "versionCode": 1
     },
     "description": "",
     "githubUrl": "https://github.com/eltonlazzarin/expo-pomodoro-app"
