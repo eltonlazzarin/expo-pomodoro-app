@@ -1,9 +1,9 @@
-import React, { useState, useCallback } from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import Routes from "./src/routes";
-import { AppLoading } from "expo";
+import React, { useState, useCallback } from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import Routes from './src/routes';
+import { AppLoading } from 'expo';
 
-import * as Font from "expo-font";
+import * as Font from 'expo-font';
 
 console.disableYellowBox = true;
 
@@ -18,9 +18,9 @@ export default function App() {
     setIsLoading(true);
 
     return await Font.loadAsync({
-      "Poppins-Light": require("./assets/fonts/Poppins-Light.ttf"),
-      "Poppins-Regular": require("./assets/fonts/Poppins-Regular.ttf"),
-      "Poppins-Bold": require("./assets/fonts/Poppins-Bold.ttf"),
+      'Poppins-Light': require('./assets/fonts/Poppins-Light.ttf'),
+      'Poppins-Regular': require('./assets/fonts/Poppins-Regular.ttf'),
+      'Poppins-Bold': require('./assets/fonts/Poppins-Bold.ttf'),
     });
   }, [setIsLoading]);
 
