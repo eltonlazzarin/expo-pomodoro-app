@@ -1,12 +1,11 @@
-import React, { useState, useRef } from "react";
-import { Text, TouchableOpacity, View } from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
-import { MaterialIcons } from "@expo/vector-icons";
-import { AnimatedCircularProgress } from "react-native-circular-progress";
-import { Audio } from "expo-av";
+import React, { useState, useRef } from 'react';
+import { Text, TouchableOpacity, View } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
+import { MaterialIcons } from '@expo/vector-icons';
+import { AnimatedCircularProgress } from 'react-native-circular-progress';
+import { Audio } from 'expo-av';
 
-import { styles } from "./styles";
-import { set } from "react-native-reanimated";
+import { styles } from './styles';
 
 function formatSeconds(seconds) {
   if (seconds < 60) {
@@ -22,9 +21,7 @@ export default function Timer() {
   const [timerEnabled, setTimerEnabled] = useState(false);
   const [secondsEllapsed, setSecondsEllapsed] = useState(0);
   const [counterStep, setCounterStep] = useState(0);
-  let [tasksTime, setTasksTime] = useState(10);
-
-  console.log(counterStep);
+  let [tasksTime, setTasksTime] = useState(1500);
 
   async function toggleTimer() {
     const soundObject = new Audio.Sound();
@@ -34,7 +31,7 @@ export default function Timer() {
 
       setTimerEnabled(false);
     } else {
-      await soundObject.loadAsync(require("../../assets/start.mp3"));
+      await soundObject.loadAsync(require('../../assets/start.mp3'));
       await soundObject.playAsync();
 
       timerRef.current = setInterval(() => {
@@ -51,14 +48,14 @@ export default function Timer() {
     setTimerEnabled(false);
     setSecondsEllapsed(0);
     setCounterStep(0);
-    setTasksTime(10);
+    setTasksTime(1500);
   }
 
   if (secondsEllapsed === tasksTime) {
     async function resetTimer() {
       const soundObject = new Audio.Sound();
 
-      await soundObject.loadAsync(require("../../assets/alarmclock.mp3"));
+      await soundObject.loadAsync(require('../../assets/alarmclock.mp3'));
       await soundObject.playAsync();
 
       setSecondsEllapsed(0);
@@ -68,17 +65,17 @@ export default function Timer() {
         async function takeRest() {
           const soundObject = new Audio.Sound();
 
-          await soundObject.loadAsync(require("../../assets/takearest.mp3"));
+          await soundObject.loadAsync(require('../../assets/takearest.mp3'));
           await soundObject.playAsync();
 
-          setTasksTime(30);
+          setTasksTime(1200);
         }
 
         takeRest();
       }
 
       if (counterStep > 3) {
-        setTasksTime(10);
+        setTasksTime(1500);
         setCounterStep(0);
       }
     }
@@ -87,7 +84,7 @@ export default function Timer() {
   }
 
   return (
-    <LinearGradient colors={["#E7F3FE", "#9ABEE0"]} style={styles.container}>
+    <LinearGradient colors={['#E7F3FE', '#9ABEE0']} style={styles.container}>
       <Text style={styles.title}>Pomodora</Text>
 
       <AnimatedCircularProgress
@@ -106,7 +103,7 @@ export default function Timer() {
       <View style={styles.buttons}>
         <TouchableOpacity style={styles.button} onPress={toggleTimer}>
           <MaterialIcons
-            name={timerEnabled ? "pause" : "play-arrow"}
+            name={timerEnabled ? 'pause' : 'play-arrow'}
             size={32}
             color="#FFF"
           />
