@@ -1,4 +1,4 @@
-# Expo Pomodoro APP 
+# Expo Pomodoro APP
 
 App construído durante o Meetup Frontend SP
 
