@@ -23,7 +23,7 @@ This project was developed with the following technologies:
 - [react-native-gesture-handler](https://docs.expo.io/versions/latest/sdk/gesture-handler/)
 - [react-native-web](https://code.visualstudio.com)
 - [react-native-safe-area-context](https://docs.expo.io/versions/v33.0.0/introduction/running-in-the-browser/)
-- [Axios](https://github.com/axios/axios)
+- [expo-av](https://docs.expo.io/versions/latest/sdk/av/)
 - [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
 
 ## :information_source: How To Use
