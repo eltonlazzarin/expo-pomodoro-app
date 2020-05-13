@@ -30,10 +30,10 @@ This project was developed with the following technologies:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/eltonlazzarin/expo-typescript-auth.git
+$ git clone https://github.com/eltonlazzarin/expo-pomodoro-app.git
 
 # Go into the repository
-$ cd expo-typescript-auth
+$ cd expo-pomodoro-app
 
 # Install dependencies
 $ yarn
