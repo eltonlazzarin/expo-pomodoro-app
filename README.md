@@ -58,3 +58,7 @@ $ yarn start
 ### :memo: License
 
 This project is under the MIT license. See the [LICENSE](https://github.com/eltonlazzarin/gobarber/blob/master/LICENSE) for more information.
+
+---
+
+Made with ♥ by Elton Lazzarin :wave: [Get in touch!](https://www.linkedin.com/in/eltonlazzarin/)
