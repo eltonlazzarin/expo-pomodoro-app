@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center"> 
     <img alt="Login" src="https://github.com/eltonlazzarin/expo-pomodoro-app/blob/master/screenshots/mobileapp.gif" hight="380" width="350" />
     <br>
 </h1>
