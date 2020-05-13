@@ -24,7 +24,8 @@ This project was developed with the following technologies:
 - [react-native-web](https://code.visualstudio.com)
 - [react-native-safe-area-context](https://docs.expo.io/versions/v33.0.0/introduction/running-in-the-browser/)
 - [expo-av](https://docs.expo.io/versions/latest/sdk/av/)
-- [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) and [Prettier RC](https://github.com/prettier/prettier)
+- [expo-linear-gradient](https://docs.expo.io/versions/latest/sdk/linear-gradient)
+- [VS Code](https://code.visualstudio.com) with [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig), [Prettier RC](https://github.com/prettier/prettier), [eslint](https://eslint.org/) and [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
 ## :information_source: How To Use
 
