@@ -16,11 +16,9 @@
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/expo-pomodoro-app">
   
 <p align="center">
-  <a href="#memo-license">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#ballot_box_with_check-goals">Goals</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#checkered_flag-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#incoming_envelope-routes">Routes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket_mobile_technologies">Licence</a>
+  <a href="#rocket-mobile-technologies">Mobile Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">Licence</a>
 </p>
 
 ## :rocket: Mobile Technologies
