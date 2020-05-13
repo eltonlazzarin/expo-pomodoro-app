@@ -14,6 +14,14 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonlazzarin/expo-pomodoro-app">
 
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/expo-pomodoro-app">
+  
+<p align="center">
+  <a href="#rocket-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#ballot_box_with_check-goals">Goals</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#checkered_flag-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#incoming_envelope-routes">Routes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licence">Licence</a>
+</p>
 
 ## :rocket: Mobile Technologies
 
