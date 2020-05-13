@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  Simple mobile login built with Expo and Typescript
+  Simple Pomodoro mobile app built with Expo
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/eltonlazzarin/expo-pomodoro-app">
