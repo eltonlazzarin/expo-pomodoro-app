@@ -4,7 +4,7 @@
 </h1>
 
 <h4 align="center">
-  Simple Pomodoro mobile app built with Expo
+  Pomodoro Timer is a simple mobile app built with Expo
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/eltonlazzarin/expo-pomodoro-app">
@@ -14,7 +14,7 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonlazzarin/expo-pomodoro-app">
 
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/expo-pomodoro-app">
-  
+
 <p align="center">
   <a href="#rocket-mobile-technologies">Mobile Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
