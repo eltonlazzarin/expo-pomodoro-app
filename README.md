@@ -15,6 +15,8 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/eltonlazzarin/expo-pomodoro-app">
 
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/eltonlazzarin/expo-pomodoro-app">
+  
+  <img alt="GitHub" src="https://img.shields.io/github/license/eltonlazzarin/expo-pomodoro-app">
 
 <p align="center">
   <a href="#rocket-mobile-technologies">Mobile Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
